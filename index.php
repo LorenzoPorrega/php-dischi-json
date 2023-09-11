@@ -22,31 +22,37 @@
 </head>
 
 <body style="background-color: rgb(29, 45, 60);">
-  <nav class="navbar" style="background-color: rgb(6, 19, 31);">
-    <div class="container">
-      <a class="navbar-brand" href="#0">
-        <img src="./imgs/logo.png" alt="Spotify" width="150" >
-      </a>
-    </div>
-  </nav>
-  <div class="container mt-5 h-100">
-    <div class="row g-3 ">
-      <div class="col-12 col-md-12 col-lg-6 col-xl-3"
-      v-for="card in discographies">
-        <a href="#0" class="text-decoration-none">
-          <div class="card text-white" style="width: 18rem; background-color: rgb(17, 32, 48);">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title fw-bold fs-3">New Jersey</h5>
-              <p class="card-text">Bon Jovi</p>
-              <p class="fw-bold fs-5">1988</p>
-            </div>
-          </div>
+
+  <div id="app">
+    <nav class="navbar" style="background-color: rgb(6, 19, 31);">
+      <div class="container">
+        <a class="navbar-brand" href="#0">
+          <img src="./imgs/logo.png" alt="Spotify" width="150" >
         </a>
+      </div>
+    </nav>
+    <div class="container mt-5 h-100">
+      <div class="row d-flex justify-content-center gap-4">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-4 d-flex justify-content-center p-5 rounded"  style="background-color: rgb(17, 32, 48);"
+        v-for="card in albums">
+          <a href="#0" class="text-decoration-none">
+            <div class="card text-white border-0" style="width: 18rem; background-color: rgb(17, 32, 48);">
+              <img class="card-img-top bg-white"
+              :src="card.copertina_album"
+              :src="card.nome_album">
+              <div class="card-body text-center d-flex flex-column justify-content-between">
+                <h5 class="card-title fw-bold fs-3">{{ card.nome_album }}</h5>
+                <p class="card-text">{{ card.nome_artista }}</p>
+                <p class="fw-bold fs-5">{{ card.anno_uscita }}</p>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </div>
-  <script src="./js/main.js"></script>
+
+  <script src="./main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 

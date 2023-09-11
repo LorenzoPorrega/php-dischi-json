@@ -1,12 +1,13 @@
 Vue.createApp({
   data() {
     return {
-      posts: []
+      albums: []
     }
   },
   mounted() {
-    axios.get("api/posts.php").then((response) => {
-      this.posts = response.data;
+    axios.get("./api/albums.php").then((response) => {
+      this.albums = response.data;
+      console.log(this.albums)
     })
   }
 }).mount("#app");
