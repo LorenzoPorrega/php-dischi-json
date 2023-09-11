@@ -1,0 +1,56 @@
+[
+  {
+    "nome_album": "Il Sogno Eretico",
+    "nome_artista": "Caparezza",
+    "anno_uscita": 2011,
+    "copertina_album": "https://en.wikipedia.org/wiki/Il_sogno_eretico#/media/File:Il_sogno_eretico_(Caparezza_album).jpeg"
+  },
+  {
+    "nome_album": "The Dark Side of the Moon",
+    "nome_artista": "Pink Floyd",
+    "anno_uscita": 1973,
+    "copertina_album": ""
+  },
+  {
+    "nome_album": "Led Zeppelin IV",
+    "nome_artista": "Led Zeppelin",
+    "anno_uscita": 1971,
+    "copertina_album": ""
+  },
+  {
+    "nome_album": "Hotel California",
+    "nome_artista": "Eagles",
+    "anno_uscita": 1976,
+    "copertina_album": ""
+  },
+  {
+    "nome_album": "Rumours",
+    "nome_artista": "Fleetwood Mac",
+    "anno_uscita": 1977,
+    "copertina_album": ""
+  },
+  {
+    "nome_album": "Nevermind",
+    "nome_artista": "Nirvana",
+    "anno_uscita": 1991,
+    "copertina_album": ""
+  },
+  {
+    "nome_album": "The Wall",
+    "nome_artista": "Pink Floyd",
+    "anno_uscita": 1979,
+    "copertina_album": ""
+  },
+  {
+    "nome_album": "Born to Run",
+    "nome_artista": "Bruce Springsteen",
+    "anno_uscita": 1975,
+    "copertina_album": ""
+  },
+  {
+    "nome_album": "Abbey Road",
+    "nome_artista": "The Beatles",
+    "anno_uscita": 1969,
+    "copertina_album": ""
+  }
+]
